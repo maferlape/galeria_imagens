@@ -83,10 +83,10 @@ h1::before {
 .modal{
   background-color: white;
   border-radius: 4px;
-  height: 50%;
-  margin: 25vh auto;
+  height: 35%;
+  margin: 30vh auto;
   position: relative;
-  width: 50%;
+  width: 95%;
 } 
 
 .modal-content {
@@ -170,6 +170,11 @@ footer span {
 
   .galeria img:nth-child(3n) {
     grid-area: span 3/ span 6;
+  }
+  .modal {
+    height: 50%;
+    margin: 25vh auto;
+    width: 50%;
   }
 }
 
